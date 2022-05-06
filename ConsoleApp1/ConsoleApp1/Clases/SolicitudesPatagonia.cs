@@ -8,6 +8,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace ConsoleApp1.Clases
 {
@@ -69,6 +70,7 @@ namespace ConsoleApp1.Clases
                     respuesta = await response.Content.ReadAsStringAsync();
                     //userCourse = JsonConvert.DeserializeObject<UserCoursePatagoniaModel>(respuesta);
                     companyCourse = JsonConvert.DeserializeObject<CompanyCoursePatagoniaModel>(respuesta);
+                    //XmlDocument doc = JsonConvert.DeserializeXmlNode(respuesta);
                 }
             }
             catch (Exception ex)
