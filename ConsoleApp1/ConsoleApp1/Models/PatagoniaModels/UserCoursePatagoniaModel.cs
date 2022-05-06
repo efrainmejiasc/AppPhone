@@ -274,859 +274,859 @@ namespace ConsoleApp1.Models.PatagoniaModels
 
     public class _7Steps
     {
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class ToolkitDeEmpresasInnovadora
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class FinanciamientoDeTuEmpresa
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class BootcampDeFinanzasParaEmprendedora
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class CreciendoJuntasTransformaciónDigital
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class MarketingDigital
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202015
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202017
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R2021Master
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class CoachingParaLaInternacionalizaciónEmpresarial
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202017
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class ElYinYElYangEnElElevatorPitch
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PlaneaciónEstratégica
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202128
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class MarketingEstratégico
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class EmpresasFamiliaresExitosa
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class MinimizandoRiesgosComercialesDesdeChina
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202203
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class SemanaVirtualDeCoreaLACIndustriaCosméticaEnLatinoamérica
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202152
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202007
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202008
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202021
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R201912
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class ÉticaParaLosNegocios
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202015
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202013
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202014
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202020
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202024
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202105
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202013
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202010
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202102
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class TransporteLogísticaInternacional
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class AprendeAVenderleAGrandesCliente
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class InternacionalizaciónDeLaEmpresa
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class _7Consejos
-{
         public string Course { get; set; }
-public string Email { get; set; }
-public string Enrolled { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
 
-[JsonProperty("First Name")]
-public string FirstName { get; set; }
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
 
-[JsonProperty("Last Name")]
-public string LastName { get; set; }
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class ToolkitDeEmpresasInnovadora
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class FinanciamientoDeTuEmpresa
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class BootcampDeFinanzasParaEmprendedora
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class CreciendoJuntasTransformaciónDigital
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class MarketingDigital
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202015
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202017
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R2021Master
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class CoachingParaLaInternacionalizaciónEmpresarial
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202017
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class ElYinYElYangEnElElevatorPitch
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PlaneaciónEstratégica
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202128
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class MarketingEstratégico
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class EmpresasFamiliaresExitosa
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class MinimizandoRiesgosComercialesDesdeChina
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202203
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class SemanaVirtualDeCoreaLACIndustriaCosméticaEnLatinoamérica
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202152
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202007
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202008
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202021
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R201912
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class ÉticaParaLosNegocios
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202015
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202013
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202014
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202020
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202024
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202105
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202013
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202010
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202102
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class TransporteLogísticaInternacional
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class AprendeAVenderleAGrandesCliente
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class InternacionalizaciónDeLaEmpresa
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class _7Consejos
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
     }
 
     public class UsandoFacebookParaPotenciarElEmprendimiento
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class SemanaVirtualDeCoreaLACIndustriaAutomotrizYDeAutopartesEnMéxico
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202008
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202009
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202007
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class InterculturalidadYNegocio
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202018
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202143
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202140
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202138
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R201911
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R201905
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class SemanaVirtualDeCoreaLACSaludYEquipoMédico
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202010
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202011
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202003
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202123
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class CómoCrearNegociosQueGenerenValorParaLosClientes
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PlanificaciónEstratégicaI
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202115
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class MarketingDigitalParaPYME
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202135
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202136
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202132
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4R202016
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RAGILE202014
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class PM4RLeadership202016
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
-
-public class HerramientasDeComercio
-{
-    public string Course { get; set; }
-    public string Email { get; set; }
-    public string Enrolled { get; set; }
-
-    [JsonProperty("First Name")]
-    public string FirstName { get; set; }
-
-    [JsonProperty("Last Name")]
-    public string LastName { get; set; }
-}
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class SemanaVirtualDeCoreaLACIndustriaAutomotrizYDeAutopartesEnMéxico
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202008
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202009
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202007
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class InterculturalidadYNegocio
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202018
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202143
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202140
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202138
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R201911
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R201905
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class SemanaVirtualDeCoreaLACSaludYEquipoMédico
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202010
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202011
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202003
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202123
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class CómoCrearNegociosQueGenerenValorParaLosClientes
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PlanificaciónEstratégicaI
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202115
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class MarketingDigitalParaPYME
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202135
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202136
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202132
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4R202016
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RAGILE202014
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class PM4RLeadership202016
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
+
+    public class HerramientasDeComercio
+    {
+        public string Course { get; set; }
+        public string Email { get; set; }
+        public string Enrolled { get; set; }
+
+        [JsonProperty("First Name")]
+        public string FirstName { get; set; }
+
+        [JsonProperty("Last Name")]
+        public string LastName { get; set; }
+    }
 }
