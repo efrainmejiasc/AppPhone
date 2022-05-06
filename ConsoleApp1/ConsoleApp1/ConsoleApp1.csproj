@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45EA9499-691D-4DDA-94DE-174C9669D071}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\SolicitudesFaceInstagram.cs" />
+    <Compile Include="Clases\SolicitudesML.cs" />
+    <Compile Include="Clases\SolicitudesNewsTrends.cs" />
+    <Compile Include="Clases\SolicitudesPatagonia.cs" />
+    <Compile Include="Clases\TestSp.cs" />
+    <Compile Include="DataModels\Anoucing.cs" />
+    <Compile Include="DataModels\AnoucingProgress.cs" />
+    <Compile Include="DataModels\ApplyProgress.cs" />
+    <Compile Include="DataModels\Community.cs" />
+    <Compile Include="DataModels\Company.cs" />
+    <Compile Include="DataModels\CompanyEconomicSector.cs" />
+    <Compile Include="DataModels\Course.cs" />
+    <Compile Include="DataModels\CtrlCommunity.cs" />
+    <Compile Include="DataModels\EconomicSector.cs" />
+    <Compile Include="DataModels\MyAppContext.cs" />
+    <Compile Include="DataModels\ProductService.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsFive.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsFiveDetail.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsFour.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsOne.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsSix.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsSixDetail.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsThree.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsThreeDetail.cs" />
+    <Compile Include="DataModels\TemplateNewsTrendsTwo.cs" />
+    <Compile Include="DataModels\Users.cs" />
+    <Compile Include="DataModels\VirtualCourse.cs" />
+    <Compile Include="Migrations\202204071755476_TCourse.cs" />
+    <Compile Include="Migrations\202204071755476_TCourse.designer.cs">
+      <DependentUpon>202204071755476_TCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204071801192_COANOU.cs" />
+    <Compile Include="Migrations\202204071801192_COANOU.designer.cs">
+      <DependentUpon>202204071801192_COANOU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204071819096_economic.cs" />
+    <Compile Include="Migrations\202204071819096_economic.designer.cs">
+      <DependentUpon>202204071819096_economic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204071833351_virtualCO.cs" />
+    <Compile Include="Migrations\202204071833351_virtualCO.designer.cs">
+      <DependentUpon>202204071833351_virtualCO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204071856303_progress.cs" />
+    <Compile Include="Migrations\202204071856303_progress.designer.cs">
+      <DependentUpon>202204071856303_progress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204072031514_templates.cs" />
+    <Compile Include="Migrations\202204072031514_templates.designer.cs">
+      <DependentUpon>202204072031514_templates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204072151550_userss.cs" />
+    <Compile Include="Migrations\202204072151550_userss.designer.cs">
+      <DependentUpon>202204072151550_userss.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204131738213_newstrendd.cs" />
+    <Compile Include="Migrations\202204131738213_newstrendd.designer.cs">
+      <DependentUpon>202204131738213_newstrendd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204131832294_newsName.cs" />
+    <Compile Include="Migrations\202204131832294_newsName.designer.cs">
+      <DependentUpon>202204131832294_newsName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204161904166_threeremove.cs" />
+    <Compile Include="Migrations\202204161904166_threeremove.designer.cs">
+      <DependentUpon>202204161904166_threeremove.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204161913506_claveThreeTest.cs" />
+    <Compile Include="Migrations\202204161913506_claveThreeTest.designer.cs">
+      <DependentUpon>202204161913506_claveThreeTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204161922475_deletethree.cs" />
+    <Compile Include="Migrations\202204161922475_deletethree.designer.cs">
+      <DependentUpon>202204161922475_deletethree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204161933487_forekeytrhee.cs" />
+    <Compile Include="Migrations\202204161933487_forekeytrhee.designer.cs">
+      <DependentUpon>202204161933487_forekeytrhee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204162006117_FiveDetail.cs" />
+    <Compile Include="Migrations\202204162006117_FiveDetail.designer.cs">
+      <DependentUpon>202204162006117_FiveDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204162041370_detailSix.cs" />
+    <Compile Include="Migrations\202204162041370_detailSix.designer.cs">
+      <DependentUpon>202204162041370_detailSix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204181255106_deletefour.cs" />
+    <Compile Include="Migrations\202204181255106_deletefour.designer.cs">
+      <DependentUpon>202204181255106_deletefour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204181259119_newfour.cs" />
+    <Compile Include="Migrations\202204181259119_newfour.designer.cs">
+      <DependentUpon>202204181259119_newfour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204181344411_all.cs" />
+    <Compile Include="Migrations\202204181344411_all.designer.cs">
+      <DependentUpon>202204181344411_all.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202204211318423_NoTemplates.cs" />
+    <Compile Include="Migrations\202204211318423_NoTemplates.designer.cs">
+      <DependentUpon>202204211318423_NoTemplates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AccessAppFI.cs" />
+    <Compile Include="Models\AccessClientFI.cs" />
+    <Compile Include="Models\CategoriesMLModel.cs" />
+    <Compile Include="Models\CreateComponent.cs" />
+    <Compile Include="Models\FreeMarketSearchProduct.cs" />
+    <Compile Include="Models\FreeMarketTrends.cs" />
+    <Compile Include="Models\GTrends.cs" />
+    <Compile Include="Models\SubCategoriesMLModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="EntityFramework">
+      <Version>6.4.4</Version>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json">
+      <Version>13.0.1</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202204071755476_TCourse.resx">
+      <DependentUpon>202204071755476_TCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204071801192_COANOU.resx">
+      <DependentUpon>202204071801192_COANOU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204071819096_economic.resx">
+      <DependentUpon>202204071819096_economic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204071833351_virtualCO.resx">
+      <DependentUpon>202204071833351_virtualCO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204071856303_progress.resx">
+      <DependentUpon>202204071856303_progress.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204072031514_templates.resx">
+      <DependentUpon>202204072031514_templates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204072151550_userss.resx">
+      <DependentUpon>202204072151550_userss.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204131738213_newstrendd.resx">
+      <DependentUpon>202204131738213_newstrendd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204131832294_newsName.resx">
+      <DependentUpon>202204131832294_newsName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204161904166_threeremove.resx">
+      <DependentUpon>202204161904166_threeremove.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204161913506_claveThreeTest.resx">
+      <DependentUpon>202204161913506_claveThreeTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204161922475_deletethree.resx">
+      <DependentUpon>202204161922475_deletethree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204161933487_forekeytrhee.resx">
+      <DependentUpon>202204161933487_forekeytrhee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204162006117_FiveDetail.resx">
+      <DependentUpon>202204162006117_FiveDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204162041370_detailSix.resx">
+      <DependentUpon>202204162041370_detailSix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204181255106_deletefour.resx">
+      <DependentUpon>202204181255106_deletefour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204181259119_newfour.resx">
+      <DependentUpon>202204181259119_newfour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204181344411_all.resx">
+      <DependentUpon>202204181344411_all.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202204211318423_NoTemplates.resx">
+      <DependentUpon>202204211318423_NoTemplates.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
