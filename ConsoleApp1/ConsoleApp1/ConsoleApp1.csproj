@@ -155,6 +155,8 @@
     <Compile Include="Models\FreeMarketSearchProduct.cs" />
     <Compile Include="Models\FreeMarketTrends.cs" />
     <Compile Include="Models\GTrends.cs" />
+    <Compile Include="Models\PatagoniaModels\CompanyPatagoniaModel.cs" />
+    <Compile Include="Models\PatagoniaModels\UserCoursePatagoniaModel.cs" />
     <Compile Include="Models\SubCategoriesMLModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -52,8 +52,8 @@ namespace ConsoleApp1.Clases
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 client.DefaultRequestHeaders.Add("clientToken", clientToken);
-                 HttpResponseMessage response = await client.GetAsync(urlBase + "company/301699");
-                //HttpResponseMessage response = await client.GetAsync(urlBase + "report/courses/users");
+                 //HttpResponseMessage response = await client.GetAsync(urlBase + "company/301699");
+                HttpResponseMessage response = await client.GetAsync(urlBase + "report/courses/users");
                 //HttpResponseMessage response = await client.GetAsync(urlBase + "report/courses/companies");
 
 
