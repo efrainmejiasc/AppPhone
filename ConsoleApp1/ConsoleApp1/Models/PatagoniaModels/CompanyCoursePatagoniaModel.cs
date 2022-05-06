@@ -10,7 +10,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
     public class CompanyCoursePatagoniaModel
     {
         [JsonProperty("Integración y Comercio Electrónico")]
-        public IntegraciónYComercioElectrónico IntegraciónYComercioElectrónico { get; set; }
+        public IntegraciónYComercioElectrónico_ IntegraciónYComercioElectrónico { get; set; }
 
         [JsonProperty("  WEBINAR: Marketing Digital para Mujeres Empresarias ")]
         public WEBINARMarketingDigitalParaMujeresEmpresarias WEBINARMarketingDigitalParaMujeresEmpresarias { get; set; }
@@ -71,7 +71,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public WEBINARGoogleTeAyudaASerMásProductivo WEBINARGoogleTeAyudaASerMásProductivo { get; set; }
 
         [JsonProperty("Marketing Estratégico")]
-        public MarketingEstratégico MarketingEstratégico { get; set; }
+        public MarketingEstratégico_ MarketingEstratégico { get; set; }
 
         [JsonProperty("PM4R-2021-52")]
         public PM4R202152 PM4R202152 { get; set; }
@@ -110,7 +110,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public PM4RAGILE202021 PM4RAGILE202021 { get; set; }
 
         [JsonProperty("Marketing Digital")]
-        public MarketingDigital MarketingDigital { get; set; }
+        public MarketingDigital_ MarketingDigital { get; set; }
 
         [JsonProperty("PM4R-2019-12")]
         public PM4R201912 PM4R201912 { get; set; }
@@ -176,7 +176,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public MercadoExportaçãoIndireta MercadoExportaçãoIndireta { get; set; }
 
         [JsonProperty("Internacionalización de la Empresa")]
-        public InternacionalizaciónDeLaEmpresa InternacionalizaciónDeLaEmpresa { get; set; }
+        public InternacionalizaciónDeLaEmpresa_ InternacionalizaciónDeLaEmpresa { get; set; }
 
         [JsonProperty("La RSE es un buen negocio para tu empresa ¡Descubre por qué!")]
         public LaRSEEsUnBuenNegocioParaTuEmpresaDescubrePorQué LaRSEEsUnBuenNegocioParaTuEmpresaDescubrePorQué { get; set; }
@@ -377,6 +377,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         [JsonProperty("Company Name")]
         public string CompanyName { get; set; }
     }
+
 
     public class _107671
     {
@@ -2549,7 +2550,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public _81222 _81222 { get; set; }
     }
 
-    public class IntegraciónYComercioElectrónico
+    public class IntegraciónYComercioElectrónico_
     {
         public _228927 _228927 { get; set; }
         public _81222 _81222 { get; set; }
@@ -2585,7 +2586,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public _168952 _168952 { get; set; }
     }
 
-    public class InternacionalizaciónDeLaEmpresa
+    public class InternacionalizaciónDeLaEmpresa_
     {
         public _205950 _205950 { get; set; }
         public _74967 _74967 { get; set; }
@@ -2606,7 +2607,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public _286123 _286123 { get; set; }
     }
 
-    public class MarketingDigital
+    public class MarketingDigital_
     {
         public _81222 _81222 { get; set; }
         public _260281 _260281 { get; set; }
@@ -2661,7 +2662,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public _286123 _286123 { get; set; }
     }
 
-    public class MarketingEstratégico
+    public class MarketingEstratégico_
     {
         public _81222 _81222 { get; set; }
         public _208705 _208705 { get; set; }

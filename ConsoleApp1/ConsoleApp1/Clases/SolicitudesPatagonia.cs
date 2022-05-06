@@ -1,4 +1,7 @@
-﻿using System;
+﻿using ConsoleApp1.Models.PatagoniaModels;
+using ConsoleApp1.Models.PatagoniaModels.UC;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -46,6 +49,8 @@ namespace ConsoleApp1.Clases
         public async Task<string> GetDataPatagoniaAsync()
         {
             var respuesta = string.Empty;
+            var userCourse = new UserCoursePatagoniaModel();
+            var companyCourse = new CompanyCoursePatagoniaModel();
             try
             {
                 HttpClient client = new HttpClient();
@@ -62,6 +67,8 @@ namespace ConsoleApp1.Clases
                 if (response.IsSuccessStatusCode)
                 {
                     respuesta = await response.Content.ReadAsStringAsync();
+                    //userCourse = JsonConvert.DeserializeObject<UserCoursePatagoniaModel>(respuesta);
+                    companyCourse = JsonConvert.DeserializeObject<CompanyCoursePatagoniaModel>(respuesta);
                 }
             }
             catch (Exception ex)

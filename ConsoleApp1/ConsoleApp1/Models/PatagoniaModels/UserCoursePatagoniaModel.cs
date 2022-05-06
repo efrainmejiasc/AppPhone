@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1.Models.PatagoniaModels
+namespace ConsoleApp1.Models.PatagoniaModels.UC
 {
     public class UserCoursePatagoniaModel
     {
@@ -16,7 +16,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public List<AceleradoraVirtual> AceleradoraVirtual { get; set; }
 
         [JsonProperty("Operador Economico")]
-        public List<OperadorEconomico> OperadorEconomico { get; set; }
+        public List<OperadorEconomico_> OperadorEconomico { get; set; }
 
         [JsonProperty("Exportar de LatAm a Europa")]
         public List<ExportarDeLatAmAEuropa> ExportarDeLatAmAEuropa { get; set; }
@@ -246,7 +246,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public string LastName { get; set; }
     }
 
-    public class OperadorEconomico
+    public class OperadorEconomico_
     {
         public string Course { get; set; }
         public string Email { get; set; }
@@ -480,7 +480,7 @@ namespace ConsoleApp1.Models.PatagoniaModels
         public string LastName { get; set; }
     }
 
-    public class MinimizandoRiesgosComercialesDesdeChina
+    public class MinimizandoRiesgosComercialesDesdeChina_
     {
         public string Course { get; set; }
         public string Email { get; set; }
