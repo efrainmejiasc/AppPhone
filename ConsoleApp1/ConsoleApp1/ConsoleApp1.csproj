@@ -44,10 +44,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\Smitco.cs" />
     <Compile Include="Clases\SolicitudesFaceInstagram.cs" />
     <Compile Include="Clases\SolicitudesML.cs" />
     <Compile Include="Clases\SolicitudesNewsTrends.cs" />
     <Compile Include="Clases\SolicitudesPatagonia.cs" />
+    <Compile Include="Clases\SolicitudPaises.cs" />
     <Compile Include="Clases\TestSp.cs" />
     <Compile Include="DataModels\Anoucing.cs" />
     <Compile Include="DataModels\AnoucingProgress.cs" />
@@ -155,9 +157,13 @@
     <Compile Include="Models\FreeMarketSearchProduct.cs" />
     <Compile Include="Models\FreeMarketTrends.cs" />
     <Compile Include="Models\GTrends.cs" />
+    <Compile Include="Models\MonedaExtranjera.cs" />
     <Compile Include="Models\PatagoniaModels\CompanyCoursePatagoniaModel.cs" />
     <Compile Include="Models\PatagoniaModels\CompanyPatagoniaModel.cs" />
+    <Compile Include="Models\PatagoniaModels\PatagonianApplicationsForProductsService.cs" />
     <Compile Include="Models\PatagoniaModels\UserCoursePatagoniaModel.cs" />
+    <Compile Include="Models\PatagoniaModels\PatagonianCompanyInCommunity.cs" />
+    <Compile Include="Models\SmitcoModels\MonedaextranjeraModel.cs" />
     <Compile Include="Models\SubCategoriesMLModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

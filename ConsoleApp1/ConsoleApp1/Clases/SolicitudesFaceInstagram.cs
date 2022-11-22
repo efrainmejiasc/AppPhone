@@ -110,5 +110,62 @@ namespace ConsoleApp1.Clases
 
             return respuesta;
         }
+
+
+
+        public async Task<string> GetAutorizacionAsync()
+        {
+            string respuesta = string.Empty;
+            using (HttpClient client = new HttpClient())
+            {
+                byte[] byteArray = Encoding.UTF8.GetBytes("usuario"+ ":" + "password");
+                client.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Basic", Convert.ToBase64String(byteArray));
+                client.DefaultRequestHeaders.Add("accept", "application/json");
+                Uri url = new Uri("https://mi.dominio.com/Identity/connect/token", UriKind.Absolute);
+                List<KeyValuePair<string, string>> formData = new List<KeyValuePair<string, string>>();
+                formData.Add(new KeyValuePair<string, string>("grant_type", "clientCredentials"));
+                HttpContent content = new FormUrlEncodedContent(formData);
+                HttpResponseMessage response = await client.PostAsync(url, content);
+                if (response.IsSuccessStatusCode)
+                    respuesta = await response.Content.ReadAsStringAsync();
+                else
+                    respuesta = response.StatusCode.ToString();
+            }
+
+            return respuesta;
+        }
+
+        public async Task<string> TestAsync()
+        {
+            var respuesta = string.Empty;
+
+            try
+            {
+                HttpClient client = new HttpClient();
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/xml"));
+                HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, "https://tu_URLDestino");
+                var formData = new List<KeyValuePair<string, string>>();
+                formData.Add(new KeyValuePair<string, string>("APID", "APID"));
+                formData.Add(new KeyValuePair<string, string>("NEW_SERIAL", "newSerial"));
+                formData.Add(new KeyValuePair<string, string>("ORDER_NO", "orderID"));
+                request.Content = new FormUrlEncodedContent(formData);
+                var response = await client.SendAsync(request);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    respuesta = response.Content.ReadAsStringAsync().Result;
+                }
+            }
+            catch (Exception ex)
+            {
+                var error = ex.Message;
+            }
+
+
+            return respuesta;
+        }
+
+
     }
 }

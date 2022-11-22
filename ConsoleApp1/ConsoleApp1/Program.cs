@@ -1,5 +1,6 @@
 ﻿using ConsoleApp1.Clases;
 using ConsoleApp1.Models;
+using ConsoleApp1.Models.SmitcoModels;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -25,7 +26,48 @@ namespace ConsoleApp1
 
             //GetFIAsync();
 
-            SolicitudPatagonia();
+            //SolicitudPatagonia();
+
+            //solution("abc", "abccba");
+
+            var R = SerializeME();
+        }
+
+
+        static int solution(string a, string b)
+        {
+            var cont = 0;
+            var lA = a.Length;
+            var lB = b.Length;
+            var lAB = b.Length / a.Length;
+            var listB = new List<string>();
+
+          
+
+
+            for (int i = 0; i <= lAB - 1; i++)
+            {
+                
+                if(i == 0)
+                {
+                    if (a.Contains(b.Substring(i, lA)))
+                        cont++;
+                }
+                else
+                {
+                    if (a.Contains(b.Substring(i, lA)))
+                        cont++;
+                }
+            }
+
+            Console.WriteLine("solution(a, b) =" + cont);
+            return 0;
+        }
+
+        public static void SolicitudPaises()
+        {
+            var solicitudML = new SolicitudPaises();
+            var respuesta = solicitudML.GetPaisesAsync().Result;
         }
 
         public static void GetMLCategories()
@@ -123,5 +165,31 @@ namespace ConsoleApp1
 
             return lst;
         }
+
+        public static string SerializeME()
+        {
+            var m = new MovimientoMonedaExtranjeraParametrosModel()
+            {
+                Empresa = 6,
+                Anio = 2022,
+                FechaInicial = 2022 - 01 - 01,
+                FechaFinal = 2022 - 02 - 28,
+                CuentaInicial = 11050501,
+                CuentaFinal = 11100501,
+                Comprobantes = "T",
+                TipoComprobanteInicial = "",
+                ComprobanteInicial = "",
+                NumeroInicial = "",
+                TipoComprobanteFinal = "",
+                ComprobanteFinal = "",
+                NumeroFinal = "",
+                GenerarPor = "C",
+                OrdenadoPor = "F",
+                IncluirCuentasNoMarcadasExtranjera = true
+            };
+
+            return JsonConvert.SerializeObject(m);
+        }
+
     }
 }
